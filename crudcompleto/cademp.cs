@@ -149,6 +149,7 @@ namespace crudcompleto
         private void btnexclui_Click(object sender, EventArgs e)
         {
 
+            //Teste
             if (MessageBox.Show("Deseja excluir o registro?", "Cuidado", MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2) == DialogResult.No)
             {
                 MessageBox.Show("Operação cancelada");
